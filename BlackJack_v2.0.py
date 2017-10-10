@@ -4,6 +4,9 @@ from os import system
 
 
 class Card():
+    """
+    base card class. Allows us to create any cards to put them in the deck later on.
+    """
     suits = ["spades", "diamonds", "hearts", "clubs"]
     values = [None, None, "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace"]
 
