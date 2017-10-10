@@ -1,3 +1,5 @@
+# A full-feature game of Blackjack
+
 from random import shuffle
 from time import sleep
 from os import system
