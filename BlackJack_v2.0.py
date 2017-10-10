@@ -1,3 +1,5 @@
+# A full-feature game of Blackjack
+
 from random import shuffle
 from time import sleep
 from os import system
@@ -21,6 +23,10 @@ class Card():
         return [self, other]
 
 class Deck():
+    """
+    basic deck class. Filled with 52 unique cards upon initialization.
+    remove_card method serves as a draw-a-card function
+    """
     def __init__(self):                           # create a list, fill it with cards, shuffle the list
         self.cards = []
         for i in range(4):
